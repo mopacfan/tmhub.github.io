@@ -39,6 +39,7 @@ page_one_column
 Category description is shown as collapsed block, when its height is longer than
 250px. If you would like to disable description collapsing, you can add the following
 code to [custom.xml][custom_xml]:
+If you want remove "more" only for some specific categories, you have to remove custom.xml file. Then place "<remove name="collapsed_category_description"/>" code in textarea "Custom Layout Update" for category where you want to remove "more":
 
 ```xml
 <remove name="collapsed_category_description"/>
